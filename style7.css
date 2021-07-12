@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.navbar img{
+    width: 40px;
+    margin: 30px 80px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 60px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline blue 3px;
+}
+
+.content{
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+}
+
+.content p{
+    color: cadetblue;
+    font-family: sans-serif;
+    font-size: 70px;
+}
+
+.content h4{
+    color: #606770;
+   font-family: sans-serif;
+   font-size: 16px;
+   font-weight: normal;
+   margin-top: 20px;
+   line-height: 25px;
+   letter-spacing: 0.5px;
+}
+
+button{
+    width: 300px;
+    padding: 13px 25px;
+    background: darkcyan;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rebeccapurple;
+    opacity: 0.8;
+    transform: translateY(-15px);
+    transition: 0.4s;
+}
+
+.content a{
+    color: blue;
+    opacity: 0.8;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+.content img{
+    padding: 0 2px;
+    cursor: pointer;
+}
+
+.content img:hover{
+    opacity: 0.9;
+}
+
+.picture{
+    position: absolute;
+    top: 62%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+}
+
+.picture img{
+    width: 600px;
+}
+
+.contentyazı{
+    position: absolute;
+    top: 120%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.contentyazı p{
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.footer{
+    position: absolute;
+    top: 120%;
+    left:70%;
+    transform: translate(-50%,-50%);
+}
+
+.footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.footer ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.logo{
+    position: absolute;
+    top: 120.5%;
+    left:88%;
+    transform: translate(-50%,-50%);
+}
+
+.logo img{
+    width: 150px;
+}
